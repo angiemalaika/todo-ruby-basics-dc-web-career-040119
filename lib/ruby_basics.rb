@@ -13,18 +13,18 @@ def argue(phrase)
 end
 
 def greeting(greeting="Welcome",name="Salome")
-   "#{greeting},#{name}"
+  puts "#{greeting},#{name}"
 end
 
 def return_a_value
-  puts "Nice"
+  "Nice"
 end
 
-def last_evaluated_value (last="expert")
-  puts " #{last}"
+def last_evaluated_value
+  "expert"
 end
 
 def pizza_party(pizza="cheese")
-puts "#{pizza}"
+"#{pizza}"
 
 end
