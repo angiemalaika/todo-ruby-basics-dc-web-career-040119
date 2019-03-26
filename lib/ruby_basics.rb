@@ -12,8 +12,8 @@ def argue(phrase)
    "#{phrase}"
 end
 
-def greeting(greeting="Welcome",name="Salome")
-  "#{greeting}, #{name}"
+def greeting(name="Salome")
+   "#{name}"
 end
 
 def return_a_value
